@@ -1,0 +1,76 @@
+#race {
+	text-align: center;
+	background-color: #242021;
+}
+
+h1, h2, h3 {
+	color: 	#a2a2a2;
+}
+
+h3 { font-size: 25px; }
+
+h2 { font-size: 35px; }
+
+h1 { font-size: 50px; }
+
+#raceTrack{
+	height: 300px;
+	background-image: url('img/raceTrack.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+.car{
+	display: block;
+	position: relative;
+	max-width: 200px;
+}
+#car1{
+	top:-15px;
+}
+#car2{
+	top:-80px;
+}
+
+.space{
+	margin-bottom: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+.btn{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+.white{
+	color: #ffebf7;
+}
+.red{
+	color: #ba0000;
+}
+.flag{
+	position: relative;
+	top:-350px;
+	left: 40%;
+	z-index: 9999;
+	/* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/finish.gif); */
+ 	/* background-position: center;
+ 	background-repeat: no-repeat; */
+	
+}
+table td {
+	border: 1px solid white;
+}
+
+
+ 
+
+/*use these below*/
+/*car1 color*/
+/*color: #ffebf7;*/
+
+/*car2 color*/
+/*color: #ba0000;*/
