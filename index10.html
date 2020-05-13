@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Brainster ToolBox</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Front-end Academy 2018">
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery">
+    <meta name="author" content="Front-end Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'
+        integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link href="style1.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="row sidenav" id="mySidenav">
+        <div class="row marginLogo">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <a href="#"><img src="logo.png" class="logo5"></a>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Затвори</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <ul class="first">
+                    <a href="#" class="yellow">
+                        <li class="border">Регистрирај се</li>
+                    </a>
+                    <a href="#" class="yellow">
+                        <li>Најави се</li>
+                    </a>
+                    <a href="#">
+                        <li class="border">Регистрирај се</li>
+                    </a>
+                    <a href="#">
+                        <li>За нас</li>
+                    </a>
+                    <a href="#">
+                        <li class="border">Галерија</li>
+                    </a>
+                    <a href="#">
+                        <li>Контакт</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="nav navbar-inverse navbar-fixed-top bg-image">
+        <div class="container-fluid pozadinska">
+            <div class="navbar-header">
+
+                <a class="fontAwesome" href="#"><i class="fas fa-bars" onclick="openNav()"></i></a>
+                <a class="menu" href="#" class="openbutton" onclick="openNav()">Мени</a>
+
+                <a class="brand" style="margin: 0; float: none;" href="#">
+                    <img src="logo.png"></a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="https://www.brainster.io/business" target="_blank"><button
+                                class="btn btn-default  kopce1">Обуки за компании</button></a></li>
+                    <li><a href="https://www.brainster.io/business" target="_blank"><button
+                                class="btn btn-default  kopce2">Вработни наши студенти</button></a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="main">
+        <div class="row cut text-center">
+
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1  low">
+                <h1 class="white">FUTURE-PROOF YOUR ORGANIZATION</h1>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <p class="white">Find out how to unlock progress in your business. Understand your current state,
+                    identify opportunity areas and prepare to take charge of your organization's future.</p>
+                <a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><button
+                        class="btn btn-default btn5 b">Take the assessment</button></a>
+            </div>
+        </div>
+        <div class="row head">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h2>Active Listening</h2>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 grey">
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Времетраење</h5>
+                        <p class="color">60 -120 минути </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Големина на група</h5>
+                        <p class="color">2 - 40</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Ниво за фасилитирање</h5>
+                        <p class="color">Средно</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Материјали</h5>
+                        <p class="color">Пенкала/Маркери/Флипчарт</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Оваа активност ги поддржува учесниците да размислуваат за едно прашање и да генерираат сопствени
+                    решенија користејќи едноставни принципи на активно слушање. Oва е одличен вовед во активното
+                    слушање, но исто така може да се користи со групи кои веќе се запознаени со него. Учесниците работат
+                    во групи од три и се претвораат во"субјект", слушател и набљудувач.</p>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 1</h4>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Еден моќен начин да се истражи некое прашање или проблем е да се користи активно слушање со фокус на
+                    една личност во исто време. За оваа вежба, тоа е она што ќе го направите.<br>
+                    Опционално, направете листа заедно со групата "Што е добро активно слушање?" Поканете ги луѓето
+                    спонтано да понудат одговори и да ги напишете на флипчарт.<br>
+                </p><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 2</h4>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Користење на флипчарт, воведување на трите улоги кои поединците ќе ги преземат за време на
+                    вежбата.<br>
+                    Субјект:<br>
+                    Улогата на субјектот е да го испита прашањето или проблемот од неговата / нејзината лична
+                    перспектива. Лицето во оваа улога треба да има на ум: оставање на фокусот да биде на него, водејќи
+                    се од активниот слушател.<br>
+                    Активниот слушател:<br>
+                    Улогата на активниот слушател е да слуша со целосно присуство и фокус. Да слуша со целото тело, да
+                    биде љубопитен, да набљудува. Ова лице треба да има на ум: Прашување отворени прашања за да го
+                    поддржи субјектот; не нуди совети; слуша со целото тело.<br>
+                    Набљудувачот:<br>
+                    Улогата на набљудувачот е да го набљудува процесот без да зборува. Да направи забелешки од
+                    надворешна перспектива, да ги гледа и слуша нештата што слушателот и субјектот не можат да ги
+                    забележат. Ова лице треба да има на ум: молчење низ целиот процес; забележува и фаќа белешки за она
+                    што го гледа и слуша; по завршувањето ги споделува набљудувањата со останатите.
+
+                </p><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 3</h4>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Поставете го прашањето или проблемот. Прашањето или проблемот е она што секој субјект ќе го истражува
+                    и размислува. Тоа би можело да биде вообичаено прашање за целата група (на пр. "Кои се најголемите
+                    препреки за промена во мојата работа и како можам да работам за нивно надминување?") Или секој
+                    субјект може да го постави своето или неговото прашање или проблем (на пр. предизвик на работното
+                    место со кој се соочувате во моментов.) Осигурајте се дека сите учесници разбираат што треба да
+                    истражуваат и да размислуваат.</p>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 4</h4>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                Учесниците се организираат во групи од три. Секој учесник треба да ја има секоја улога за одреден
+                временски период. Објаснете дека групите треба да обрнат внимание на времето и да се осигураат дека
+                постојат три еднакви круга.</p>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 5</h4>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Откако учесниците ќе завршат, ќе ја разгледаат вежбата, користејќи прашања како:<br>
+                    <ul>
+                        <li>Што се случило за време на вежбата?</li>
+                        <li>Како се чувствуваше да бидеш набљудувач?</li>
+                        <li>Како се чувствуваше да бидеш субјект?</li>
+                        <li>Како се чувствуваше да бидеш активен слушател?</li>
+                        <li>Што научив за себе?</li>
+                        <li>- Како можам да применам увид од оваа вежба?</li>
+                    </ul>
+                </p>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="row text-center background">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 low low1">
+                <h1 class="white">FUTURE-PROOF YOUR ORGANIZATION</h1>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                <p class="white">Find out how to unlock progress in your business. Understand your current state,
+                    identify opportunity areas and prepare to take charge of your organization's future.</p>
+                <a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><button
+                        class="btn btn-default btn5 b">Take the assessment</button></a>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3 skrien">
+                <div class="col-md-4 col-xs-4 colorA">
+                    <a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-md-4 col-xs-4 colorA">
+                    <a href="https://twitter.com/BrainsterCo"><i class="fab fa-twitter" target="_blank"></i></a>
+                </div>
+                <div class="col-md-4 col-xs-4 colorA">
+                    <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"
+                            target="_blank"></i></a>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 skrien">
+                <div class="col-md-4 col-xs-4 space">
+                    <a href="https://brainster.co/about" target="_blank">About Us</a>
+                </div>
+                <div class="col-md-4 col-xs-4 space">
+                    <a href="https://brainster.co/contact" target="_blank">Contact</a>
+                </div>
+                <div class="col-md-4 col-xs-4 space">
+                    <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Galery</a>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-center logo skrien">
+                <a href="#"> <img src="logo.png" class=" logo"></a>
+            </div>
+
+        </div>
+
+        <div class="row footer">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 flex">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="row text-center space">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://brainster.co/about" target="_blank">About Us</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://brainster.co/contact" target="_blank">Contact</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Galery</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 text-center">
+                    <a href="#"> <img src="logo.png" class=" logo"></a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="row text-center colorA">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://twitter.com/BrainsterCo"><i class="fab fa-twitter" target="_blank"></i></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"
+                                    target="_blank"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

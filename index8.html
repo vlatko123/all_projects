@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Brainster ToolBox</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Front-end Academy 2018">
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery">
+    <meta name="author" content="Front-end Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'
+        integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link href="style1.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="row sidenav" id="mySidenav">
+        <div class="row marginLogo">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <a href="#"><img src="logo.png" class="logo5"></a>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Затвори</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <ul class="first">
+                    <a href="#" class="yellow">
+                        <li class="border">Регистрирај се</li>
+                    </a>
+                    <a href="#" class="yellow">
+                        <li>Најави се</li>
+                    </a>
+                    <a href="#">
+                        <li class="border">Регистрирај се</li>
+                    </a>
+                    <a href="#">
+                        <li>За нас</li>
+                    </a>
+                    <a href="#">
+                        <li class="border">Галерија</li>
+                    </a>
+                    <a href="#">
+                        <li>Контакт</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="nav navbar-inverse navbar-fixed-top bg-image">
+        <div class="container-fluid pozadinska">
+            <div class="navbar-header">
+
+                <a class="fontAwesome" href="#"><i class="fas fa-bars" onclick="openNav()"></i></a>
+                <a class="menu" href="#" class="openbutton" onclick="openNav()">Мени</a>
+
+                <a class="brand" style="margin: 0; float: none;" href="#">
+                    <img src="logo.png"></a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="https://www.brainster.io/business" target="_blank"><button
+                                class="btn btn-default  kopce1">Обуки за компании</button></a></li>
+                    <li><a href="https://www.brainster.io/business" target="_blank"><button
+                                class="btn btn-default  kopce2">Вработни наши студенти</button></a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="main">
+        <div class="row cut text-center">
+
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1  low">
+                <h1 class="white">FUTURE-PROOF YOUR ORGANIZATION</h1>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <p class="white">Find out how to unlock progress in your business. Understand your current state,
+                    identify opportunity areas and prepare to take charge of your organization's future.</p>
+                <a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><button
+                        class="btn btn-default btn5 b">Take the assessment</button></a>
+            </div>
+        </div>
+        <div class="row head">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h2>Action Steps</h2>
+            </div>
+        </div>
+        <div class="row ">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 grey">
+
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Времетраење</h5>
+                        <p class="color">120-240 минути </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Големина на група</h5>
+                        <p class="color">2 - 10</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Ниво за фасилитирање</h5>
+                        <p class="color">Средно</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-md-1 col-sm-1 col-xs-6">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-10">
+                        <h5 class="bold">Материјали</h5>
+                        <p class="color">Пенкала/А3 Формат</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Ова е мала стратешка сесија за планирање која им помага на групи и поединци да преземат акција кон
+                    посакуваните промени. Често се користи на крајот од работилницата или програмата. Групата дискутира
+                    и се согласува со визија, а потоа создава некои чекори за дејствување кои ќе ги водат кон таа
+                    визија. Обемот на предизвикот исто така е дефиниран, преку дискусија за корисни и штетни фактори кои
+                    влијаат врз групата.</p>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 1</h4>
+            </div>
+
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Започнете: Затворете ги очите и замислете дека сте 6 месеци од сега. Замислете дека сте постигнале се
+                    што сте поставиле како цел. Размислете за она што сте го направиле во текот на шесте месеци. Вашата
+                    работа. Вашите односи со останатите. Што ве прави среќни.<br>
+                    Дајте им на учениците пенкала и хартија. Тие сега ќе ја креираат својата визија за иднината на
+                    десната страна на хартијата. Ограничете ги на 4 или 5 различни теми кои ја сочинуваат оваа визија,
+                    користејќи неколку зборови, но колку што сакаат визуелни елементи.<br>
+                    Ако тие се во групи, тие треба да разговараат за нивните визии и да дефинираат заедничка група
+                    визија.</p><br>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 2</h4>
+            </div>
+
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Побарајте од нив да напишат најмалку 5 корисни фактори на врвот на страната, кои ќе ги поддржат за да
+                    ја реализираат својата визија. Тоа може да бидат луѓе, можности, технологии, ситуации, итн.</p><br>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 3</h4>
+            </div>
+
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>Во дното на страницата побарајте од нив да напишат најмалку 5 придружни фактори кои ќе ги поддржат за
+                    да ја реализираат својата визија. Повторно, ова може да бидат луѓе, можности, технологии, ситуации,
+                    итн.</p>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 4</h4>
+            </div>
+
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                Сега групата или поединците ќе дискутираат и ќе ги дефинираат чекорите за акција. Побарајте од нив да
+                нацртаат три кутии од левата страна на хартијата до визијата на десната страна. Ова ќе бидат трите
+                големи чекори што треба да ги преземат за да се постигне нивната визија.<br>
+                Ако работат како поединци, тогаш ги ставате во парови за да разговараат за нивните чекори. Ако веќе се
+                во групи, тогаш може да разговараат за чекорите што ги прават.<br>
+                Тие пишуваат чекор во секоја кутија, концизно, но со толку многу детали што им се потребни за да им биде
+                јасно на самите себе и на другите.<br>
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h4 class="bold">Чекор 5</h4>
+            </div>
+
+        </div>
+        <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <p>За да ја затворите сесијата, отидете околу групата, барајќи од сите да ја искажат својата визија и
+                    еден (или сите три) чекори за акција. Прашајте го секое лице: Која е првото нешто што ќе го
+                    направите кога ќе се вратите во канцеларија.</p>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="row text-center background">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 low low1">
+                <h1 class="white">FUTURE-PROOF YOUR ORGANIZATION</h1>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                <p class="white">Find out how to unlock progress in your business. Understand your current state,
+                    identify opportunity areas and prepare to take charge of your organization's future.</p>
+                <a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><button
+                        class="btn btn-default btn5 b">Take the assessment</button></a>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3 skrien">
+                <div class="col-md-4 col-xs-4 colorA">
+                    <a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-md-4 col-xs-4 colorA">
+                    <a href="https://twitter.com/BrainsterCo"><i class="fab fa-twitter" target="_blank"></i></a>
+                </div>
+                <div class="col-md-4 col-xs-4 colorA">
+                    <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"
+                            target="_blank"></i></a>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 skrien">
+                <div class="col-md-4 col-xs-4 space">
+                    <a href="https://brainster.co/about" target="_blank">About Us</a>
+                </div>
+                <div class="col-md-4 col-xs-4 space">
+                    <a href="https://brainster.co/contact" target="_blank">Contact</a>
+                </div>
+                <div class="col-md-4 col-xs-4 space">
+                    <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Galery</a>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-center logo skrien">
+                <a href="#"> <img src="logo.png" class=" logo"></a>
+            </div>
+
+        </div>
+
+        <div class="row footer">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 flex">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="row text-center space">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://brainster.co/about" target="_blank">About Us</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://brainster.co/contact" target="_blank">Contact</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Galery</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 text-center">
+                    <a href="#"> <img src="logo.png" class=" logo"></a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="row text-center colorA">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://twitter.com/BrainsterCo"><i class="fab fa-twitter" target="_blank"></i></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"
+                                    target="_blank"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

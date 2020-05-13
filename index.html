@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Brainster ToolBox</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Front-end Academy 2018">
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery">
+    <meta name="author" content="Front-end Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'
+        integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="brain.png" type="image/gif">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="row sidenav" id="mySidenav">
+        <div class="row marginLogo">
+            <div class="col-md-4">
+                <a href="#"><img src="logo.png" class="logo5"></a>
+            </div>
+            <div class="col-md-8">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; Затвори</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <a href="#" class="yellow">
+                        <li class="border">Регистрирај се</li>
+                    </a>
+                    <a href="#" class="yellow">
+                        <li>Најави се</li>
+                    </a>
+                    <a href="#">
+                        <li class="border">Регистрирај се</li>
+                    </a>
+                    <a href="#">
+                        <li>За нас</li>
+                    </a>
+                    <a href="#">
+                        <li class="border">Галерија</li>
+                    </a>
+                    <a href="#">
+                        <li>Контакт</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="nav navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            
+                <a class="fontAwesome" href="#"><i class="fas fa-bars" onclick="openNav()"></i></a>
+                <a class="menu" href="#" class="openbutton" onclick="openNav()">Мени</a>
+
+                <a class="brand" style="margin: 0; float: none;" href="#">
+                    <img src="logo.png"></a>
+
+                <!-- <a class="navbar-brand" href="#"><img class="img-responsive" src="logo.png"></a> -->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="https://www.brainster.io/business" target="_blank"><button
+                                class="btn btn-default  kopce1">Обуки за компании</button></a></li>
+                    <li><a href="https://www.brainster.io/business" target="_blank"><button
+                                class="btn btn-default kopce2">Вработни наши студенти</button></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="main">
+        <div class="row text-center">
+            <p class="paragraph">Изработено од студенти на академијата за програмирање на <a href="#">Brainster</a></p>
+        </div>
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 text-center butoncinja">
+
+
+            <a href="https://www.brainster.io/business" target="_blank"><button
+                    class="btn btn-default col-sm-4 kopce3">Обуки за
+                    компании</button></a>
+            <a href="https://www.brainster.io/business" target="_blank"><button
+                    class="btn btn-default col-sm-4 kopce4">Вработни
+                    наши студенти</button></a>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+                <h1 class="white future">FUTURE-PROOF YOUR ORGANIZATION</h1>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+                <p class="white">Find out how to unlock progress in your business. Understand your current state,
+                    identify opportunity areas and prepare to take charge of your organization's future.</p>
+                <a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><button
+                        class="btn btn-default btn5">Take the assessment</button></a>
+            </div>
+
+        </div>
+        <div class="row separate">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="col-md-4 col-sm-4">
+                    <a href="index1.html" target="_blank">
+                        <div class="thumbnail">
+
+                            <img class="img1 img-responsive" src="1.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Dotmocracy</h4>
+                                        <p>Категорија: <span class="blue">Aкција</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="1.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje">Времетраење</h5>
+                                        <p class="vreme">5 - 30 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 ">
+                    <a href="index2.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="2.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Project Mid-way Evaluation</h4>
+                                        <p>Категорија: <span class="blue">Акција</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="2.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1  col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">30 - 60 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index3.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="3.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">The 5 ways</h4>
+                                        <p>Категорија: <span class="blue">Иновации</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="3.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">30 - 60 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="col-md-4 col-sm-4">
+                    <a href="index4.html" target="_blank">
+                        <div class="thumbnail">
+
+                            <img class="img1" src="4.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Future Trends</h4>
+                                        <p>Категорија: <span class="blue">Иновации</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="4.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index5.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="5.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Story Building</h4>
+                                        <p>Категорија: <span class="blue">Иновации</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="5.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">30 -60 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index6.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="6.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Take a Stand</h4>
+                                        <p>Категорија: <span class="blue">Иновации</span></p>
+                                    </div>
+
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="6.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="col-md-4 col-sm-4">
+                    <a href="index7.html" target="_blank">
+                        <div class="thumbnail">
+
+                            <img class="img1" src="7.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">IDOARRT Meeting Design</h4>
+                                        <p>Категорија: <span class="blue">Акција</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="7.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">5 - 30 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index8.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="8.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Action Steps</h4>
+                                        <p>Категорија: <span class="blue">Акција</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="8.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">120 - 240 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index9.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="9.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Letter to Myself</h4>
+                                        <p>Категорија: <span class="blue">Иновации</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="9.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">5 - 30 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="col-md-4 col-sm-4">
+                    <a href="index10.html" target="_blank">
+                        <div class="thumbnail">
+
+                            <img class="img1" src="10.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Active Listening</h4>
+                                        <p>Категорија: <span class="blue">Лидерство</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="10.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index11.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="11.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Feedback: I appreciate</h4>
+                                        <p>Категорија: <span class="blue">Лидерство</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="11.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index12.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="12.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Explore Your Values</h4>
+                                        <p>Категорија: <span class="blue">Лидерство</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="12.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="col-md-4 col-sm-4">
+                    <a href="index13.html" target="_blank">
+                        <div class="thumbnail">
+
+                            <img class="img1" src="13.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Reflection Individual</h4>
+                                        <p>Категорија: <span class="blue">Лидерство</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="13.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">30 - 60 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index14.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="14.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Back Turned Feedback</h4>
+                                        <p>Категорија: <span class="blue">Лидерство</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="14.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10  col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index15.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="15.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Conflict Responses</h4>
+                                        <p>Категорија: <span class="blue">Тим</s></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="15.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="col-md-4 col-sm-4">
+                    <a href="index16.html" target="_blank">
+                        <div class="thumbnail">
+
+                            <img class="img1" src="16.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Myers Briggs Team Reflection</h4>
+                                        <p>Категорија: <span class="blue">Тим</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="16.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a href="index17.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="17.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Personal Presentations</h4>
+                                        <p>Категорија: <span class="blue">Тим</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="17.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">60 - 240 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <a href="index18.html" target="_blank">
+                        <div class="thumbnail">
+                            <img class="img1" src="18.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="naslov">Circles of Influence</h4>
+                                        <p>Категорија: <span class="blue">Тим</span></p>
+                                    </div>
+                                    <div
+                                        class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+                                        <img src="18.png" class="img-circle" width="50px" height="50px">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-1 col-xs-1 awesome">
+                                        <i class="far fa-clock"></i>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <h5 class="vremetraenje"> Времетраење</h5>
+                                        <p class="vreme">30 - 120 мин.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row text-center background">
+            <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+                <h1 class="white future">FUTURE-PROOF YOUR ORGANIZATION</h1>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <p class="white">Find out how to unlock progress in your business. Understand your current state,
+                    identify opportunity areas and prepare to take charge of your organization's future.</p>
+                <a href="https://brainsterquiz.typeform.com/to/kC2I9E" target="_blank"><button
+                        class="btn btn-default btn5 b">Take the assessment</button></a>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3 skrien">
+                    <div class="col-md-4 col-xs-4 colorA">
+                            <a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div><div class="col-md-4 col-xs-4 colorA">
+                            <a href="https://twitter.com/BrainsterCo"><i class="fab fa-twitter" target="_blank"></i></a>
+                    </div><div class="col-md-4 col-xs-4 colorA">
+                            <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f" target="_blank"></i></a>
+                    </div>
+                </div>
+            <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 skrien">
+                <div class="col-md-4 col-xs-4 space">
+                        <a href="https://brainster.co/about" target="_blank">About Us</a>
+                </div>
+                <div class="col-md-4 col-xs-4 space">
+                        <a href="https://brainster.co/contact" target="_blank">Contact</a>
+                </div>
+                <div class="col-md-4 col-xs-4 space">
+                        <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Galery</a>
+                </div>
+            </div>
+                <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2 text-center logo skrien">
+                        <a href="#"> <img src="logo.png" class=" logo"></a>
+                </div>
+
+        </div>
+        
+        <div class="row footer">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 flex">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="row text-center space">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://brainster.co/about" target="_blank">About Us</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://brainster.co/contact" target="_blank">Contact</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Galery</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 text-center">
+                    <a href="#"> <img src="logo.png" class=" logo"></a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div class="row text-center colorA">
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://twitter.com/BrainsterCo"><i class="fab fa-twitter" target="_blank"></i></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="https://www.facebook.com/brainster.co"><i class="fab fa-facebook-f"
+                                    target="_blank"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    <script src="main.js"> </script>
+
+</body>
+
+</html>

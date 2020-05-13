@@ -1,0 +1,306 @@
+.cut {
+     background-color: black;
+    background-image: -webkit-linear-gradient(100deg, white 30%, black 15%); 
+    min-height: 100vh;
+}
+.low {
+  padding-top: 10%;
+}
+/* .bg-image {
+	background-image: url("gif2.gif");
+	height: 10vh;
+	background-size: cover;
+	background-position: top;
+
+}
+.pozadinska {
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+} */
+.logo5 {
+  width: 100px;
+  height: auto;
+}
+.brand img {
+    width: 150px;
+    height: auto;
+    margin-left: 500px;
+}
+.navbar-header {
+    margin: 10px 0;
+}
+.menu {
+    color: rgb(252, 210, 50);
+    text-decoration: none;
+    font-size: 20px;
+}
+a.menu:hover {
+  color: rgb(252, 210, 50);
+  text-decoration: none;
+}
+a.fontAwesome:hover {
+  color: rgb(252, 210, 50);
+}
+.fontAwesome {
+    font-size: 20px;
+    color: rgb(252, 210, 50);
+}
+.kopce1 {
+    background-color: rgb(252, 210, 50);
+    color: black;
+    background-image: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.kopce1:hover {
+  background-color: rgb(252, 210, 50);
+  color: black;
+}
+.kopce1:focus{
+  background-color: rgb(252, 210, 50);
+  color: black;
+  border: 0;
+}
+.kopce2 {
+    background-color: black;
+    color: rgb(252, 210, 50);
+    background-image: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.kopce2:hover {
+  background-color: black;
+  color:  rgb(252, 210, 50);
+}
+.kopce2:focus {
+  background-color: black;
+  color:  rgb(252, 210, 50);
+ overflow: hidden !important;
+}
+.paragraph {
+  margin-top: 8%;
+  color: white;
+}
+.paragraph a {
+  color: rgb(252, 210, 50);
+  text-decoration: underline;
+}
+.white {
+  color: white;
+}
+.btn5 {
+  background-color: rgb(252, 210, 50);
+  color: black;
+  background-image: none;
+  font-weight: bold;
+  border: 0;
+  margin: 2% 0;
+}
+.btn5:hover {
+  background-color: rgb(252, 210, 50); 
+  color: black;
+}
+.btn5:focus {
+  background-color: rgb(252, 210, 50);
+  color: black;
+  border: 0;
+}
+ 
+.naslov {
+  font-weight: bold;
+  width: 240px;
+}
+.blue {
+  color: rgb(127, 168, 255);
+}
+.awesome {
+  font-weight: bold;
+  font-size: 25px;
+}
+.vremetraenje {
+  font-weight: bold;
+}
+.vreme {
+  color: grey; 
+} 
+.background {
+  background-color: black;
+    background-image: -webkit-linear-gradient(100deg, black 65%,white 1%);
+    min-height: 500px;
+    padding-top: 20%;
+    
+}
+.logo {
+  width: 150px;
+    height: auto;
+    margin: 10px 0;
+}
+.space a {
+  margin: 20px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.colorA a {
+  color: rgb(252, 210, 50);
+  font-size: 20px;
+}
+.footer {
+  background-color: black;
+  border-top: 1px solid grey;
+}
+.b {
+  margin-bottom: 10%;
+}
+/* sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.marginLogo{
+  margin-bottom: 10%;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+.border {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  width: 100%;
+}
+.sidenav .yellow {
+  color: rgb(252, 210, 50);
+}
+#main {
+  transition: margin-left .5s;
+ 
+}
+.skrien {
+  display: none;
+}
+body {
+transition:0.5s;
+}
+.top  {
+  padding-top: 20%;
+}
+i{
+    font-size: 23px;
+}
+.grey {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2% 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.color {
+    color: rgb(119, 119, 119);
+}
+.bold {
+    font-weight: bold;
+}
+.first {
+  list-style: none;
+}
+@media screen and (max-width: 768px){
+  .brand img {
+    margin-left: 245px;
+  }
+  .kopce1 {
+   display: none
+  }
+  .kopce2{
+    display: none
+  }
+}
+@media screen and (max-width: 425px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+.grey {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3%;
+}
+.brand img {
+  margin-left: 180px;
+  width: 120px;
+  height: auto;
+}
+.fontAwesome {
+  margin-left: 20px;
+}
+.low {
+  padding: 13% 0;
+}
+.low1 {
+  padding-top: 40%;
+}
+.background {
+  min-height: 700px;
+}
+.footer {
+  display: none;
+}
+.skrien {
+  display: contents;
+}
+@media screen and (max-width: 375px) {
+  .paragraph {
+     padding: 30px 0;
+  }
+  .kopce3 {
+    margin-bottom: 10px;
+  }
+  .brand img {
+    margin-left: 50px;
+  }
+ .low1 {
+   padding-top: 50%;
+ }
+}
+@media screen and (max-width: 320px) {
+.background {
+  margin-top: -120px;
+}
+}
+
+

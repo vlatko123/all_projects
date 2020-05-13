@@ -1,0 +1,379 @@
+body {
+    background-color: rgb(58, 20, 111);
+    background-image: -webkit-linear-gradient(100deg, white 75%, #3A146F 25%);
+    min-height: 100vh;
+    /* background-repeat: no-repeat; */
+}
+.logo5 {
+  width: 100px;
+  height: auto;
+}
+.brand img {
+    width: 150px;
+    height: auto;
+    margin-left: 500px;
+}
+.navbar-header {
+    margin: 10px 0;
+}
+.nav .container-fluid {
+    background-color:rgb(58, 20, 111);
+}
+.menu {
+    color: rgb(252, 210, 50);
+    text-decoration: none;
+    font-size: 20px;
+}
+a.menu:hover {
+  color: rgb(252, 210, 50);
+  text-decoration: none;
+}
+
+.navbar-header a {
+    font-size: 20px;
+    color: rgb(252, 210, 50);
+    text-decoration: none;
+}
+a.fontAwesome:hover{
+  color: rgb(252, 210, 50);
+}
+.kopce1 {
+    background-color: rgb(252, 210, 50);
+    color: black;
+    background-image: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.kopce1:hover {
+  background-color: rgb(252, 210, 50);
+  color: black;
+}
+.kopce1:focus{
+  background-color: rgb(252, 210, 50);
+  color: black;
+  border: 0;
+}
+.kopce2 {
+    background-color: black;
+    color: rgb(252, 210, 50);
+    background-image: none;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.kopce2:hover {
+  background-color: black;
+  color:  rgb(252, 210, 50);
+}
+.kopce2:focus {
+  background-color: black;
+  color:  rgb(252, 210, 50);
+ overflow: hidden !important;
+}
+.kopce3 {
+  background-color: rgb(252, 210, 50);
+  color: black;
+  background-image: none;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+.kopce3:hover {
+background-color: rgb(252, 210, 50);
+color: black;
+}
+.kopce3:focus{
+background-color: rgb(252, 210, 50);
+color: black;
+border: 0;
+}
+.kopce4 {
+  background-color: black;
+  color: rgb(252, 210, 50);
+  background-image: none;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+.kopce4:hover {
+background-color: black;
+color:  rgb(252, 210, 50);
+}
+.kopce4:focus {
+background-color: black;
+color:  rgb(252, 210, 50);
+overflow: hidden !important;
+}
+
+.paragraph {
+  margin-top: 8%;
+  color: white;
+}
+.paragraph a {
+  color: rgb(252, 210, 50);
+  text-decoration: underline;
+}
+.white {
+  color: white;
+}
+.btn5 {
+  background-color: rgb(252, 210, 50);
+  color: black;
+  background-image: none;
+  font-weight: bold;
+  border: 0;
+  margin: 2% 0;
+}
+.btn5:hover {
+  background-color: rgb(252, 210, 50); 
+  color: black;
+}
+.btn5:focus {
+  background-color: rgb(252, 210, 50);
+  color: black;
+  border: 0;
+}
+ .separate {
+  margin-top: 5%;
+} 
+ .thumbnail {
+  border-radius: 10px;
+  border: 0;
+  padding: 0;
+  box-shadow: 3px 5px 23px 1px rgba(0,0,0,0.75);
+}
+.thumbnail:hover {
+  box-shadow: 5px 7px 25px 3px rgba(0,0,0,0.75);
+}
+.thumbnail .img1 {
+  /* height: 250px; */
+  padding: 10%;
+  background-color: black;
+  border-radius: 10px 10px 0 0;
+}
+.img-circle {
+  background-color: black;
+  padding: 5%;
+}
+.naslov {
+  font-weight: bold;
+  width: 240px;
+}
+.blue {
+  color: rgb(127, 168, 255);
+}
+.awesome {
+  font-weight: bold;
+  font-size: 25px;
+}
+.vremetraenje {
+  font-weight: bold;
+}
+.vreme {
+  color: grey; 
+} 
+.background {
+  background-color: rgb(58, 20, 111);
+    
+    min-height: 500px;
+    margin-top: -500px;
+}
+.logo {
+  width: 120px;
+    height: auto;
+    margin: 10px 0;
+}
+.space a {
+  margin: 20px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.colorA a {
+  color: rgb(252, 210, 50);
+  font-size: 20px;
+}
+.footer {
+  background-color: rgb(58, 20, 111);
+  border-top: 1px solid black;
+}
+.b {
+  margin-bottom: 10%;
+}
+/* sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .yellow {
+  color: rgb(252, 210, 50);
+}
+.border {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  width: 100%;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.marginLogo{
+  margin-bottom: 10%;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left .5s;
+ 
+}
+
+body {
+transition:0.5s;
+}
+
+.top  {
+  padding-top: 20%;
+}
+ul {
+  list-style: none;
+}
+.butoncinja {
+  display: none;
+}
+
+
+.skrien{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .brand img {
+    margin-left: 230px;
+  }
+  .kopce1{
+   display: none;
+  }
+  .kopce2{
+    display: none;
+  }
+  .butoncinja {
+    display: block;
+    padding-bottom: 3%;
+  }
+  body {
+    background-image: -webkit-linear-gradient(100deg, white 85%, #3A146F 25%);
+  }
+  .background {
+    margin-top: -250px;
+  } 
+  .img-circle{
+    display:none;
+  }
+  .naslov {
+   font-size:10px;
+  }
+  .sidenav .closebtn {
+    margin-top: -40px;
+  }
+  .paragraph {
+    padding: 3%;
+  }
+  .logo {
+    width: 100px;
+      height: auto;
+
+  }
+  .space a {
+    margin: 20px 5px;
+    font-size: 10px;
+  }
+  .colorA a {
+    color: rgb(252, 210, 50);
+    font-size: 15px;
+  }
+
+}
+@media screen and (max-width: 425px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .brand img {
+    margin-left: 80px;
+    width: 100px;
+    height: auto;
+  }
+  .paragraph {
+    padding: 3%;
+  }
+  .future {
+    font-size: 20px;
+  }
+  .thumbnail .img1 {
+    display: none;
+  }
+  .img-circle {
+    display: block;
+  }
+  .naslov {
+    font-size:15px;
+   }
+   .background {
+    margin-top: -50px;
+    background-image: -webkit-linear-gradient(100deg, #3A146F 85%,white 1%);
+    min-height: 400px;
+    padding-top: 15%;
+  } 
+  .fontAwesome i {
+    margin-left: 10px;
+  }
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+  .footer {
+    display: none;
+  }
+  .skrien {
+    display: contents;
+  }
+ 
+  
+}
+@media screen and (max-width: 375px) {
+  .paragraph {
+     padding: 30px 0;
+  }
+  .kopce3 {
+    margin-bottom: 10px;
+  }
+  .brand img {
+    margin-left: 50px;
+  }
+  }
+
+
