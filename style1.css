@@ -1,0 +1,261 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#content {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logoleft  {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logoleft  a {
+    color: white;
+    text-decoration: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+nav ul li a {
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+#firstpage {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;  
+}
+#firstpage .heading .white {
+    color: white;
+}
+#firstpage  button {
+    background-color: rgb(39, 145, 230);
+    border: none;
+    border-radius: 2px;
+    padding: 10px 15px;
+    color: white;
+}
+.kopce:hover {
+    cursor: pointer;
+}
+.vtor {
+    width: 90%;
+    margin: 0 auto;
+}
+.sometext {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sometext hr {
+    width: 80px;
+    border-width: 2px;
+    border-color: rgb(39, 145, 230);
+    margin-bottom: 60px;
+}
+.pictures {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;  
+    
+}
+.pictures .img {
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.pictures .prva {
+    width: 38%;
+}
+.pictures .vtora {
+    width: 60%;
+}
+.pictures .img1 {
+    background-image: url("coast.jpg");
+}
+.pictures .img2 {
+    background-image: url("island.jpg");
+}
+.pictures .img3 {
+    background-image: url("balloon.jpg");
+}
+.pictures .img4 {
+    background-image: url("mountain.jpg");
+}
+#third {
+    background-color: rgb(247, 247, 247);
+}
+.border {
+    width: 90%;
+    margin: 0 auto;
+}
+#icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#icon .fontawesome {
+    width: 30%;
+    text-align: center;
+}
+#icon .fontawesome i {
+    font-size: 30px;
+    color: rgb(39, 145, 230);
+}
+.form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.form input {
+    width: 50%;
+    padding: 10px 5px;
+}
+.form  button {
+    background-color: rgb(39, 145, 230);
+    border: none;
+    border-radius: 2px;
+    padding: 15px ;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+.footer {
+    background-color: rgb(65, 74, 79);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sub {
+    width: 50%;
+}
+.footer .media i {
+    color: white;
+    font-size: 30px;
+}
+.footer .media a {
+    margin-right: 5px;
+}
+.footer .copy {
+    color: rgb(178, 169, 154);
+    font-size: 12px;
+}
+.footer span {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .sometext {
+        width: 80%;
+    }
+    .pictures {
+        flex-direction: column;
+    }
+    .pictures .prva {
+        width: 100%;
+        height: 250px;
+    }
+    .pictures .vtora {
+        width: 100%;
+        height: 250px;
+    }
+    #icon {
+        flex-direction: column;
+        align-items: center;
+    }
+    #icon .fontawesome {
+        width: 60%;
+    }
+    .form input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #navbar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoleft  {
+        font-size: 25px;
+    }
+    nav ul li a {
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    .heading h1 {
+        margin-top: 0;
+        font-size: 50px;
+    }
+    #firstpage  button {
+        padding: 20px 30px;
+    }
+    .sometext h2 {
+        font-size: 40px;
+    }
+    .sometext p {
+        line-height: 2;
+    }
+    .pictures {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .pictures .img {
+        height: 300px;
+    }
+    .fontawesome p {
+        line-height: 2;
+    }
+    .form {
+        width: 90%;
+    }
+    .form  button {
+        font-size: 20px;
+        width: 50%;
+    }
+       
+  
+
+    
+    
+}
+
+
+
+
+
