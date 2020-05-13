@@ -1,0 +1,160 @@
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a{
+   color: #fff;
+   background-image: none !important;
+   background-color: transparent !important;
+   box-shadow: none !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff !important;
+}
+.navbar {
+	border: none;
+}
+.navbar-toggle {
+	color: white;
+}
+.bg {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+}
+.center {
+	padding-bottom: 20%;
+}
+.heading {
+	color: white;
+
+}
+.heading .red {
+	color: red;
+}
+.paragraph {
+	color: white;
+	font-size: 12px;
+}
+.fa {
+	color: white;
+	font-size: 30px;
+	margin-right: 10px;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+.blue {
+	background-color: rgb(73, 0, 213);
+}
+
+.white {
+	color: white;
+	text-align: center;
+}
+.btn {
+	background-color: rgb(73, 0, 213);
+	color: white;
+	border-color: white;
+}
+.black {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2%;
+}
+.black1 {
+	background-color: rgb(57, 57, 57);
+	color: white;
+}
+.find {
+	background-color: rgb(57, 57, 57);
+	border-color: white;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
+}
+.find:hover {
+	background-color: white;
+	color:rgb(57, 57, 57); 
+}
+.image {
+	padding: 5% 0;
+}
+.image1 {
+	margin: 5% 0;
+}
+
+.image2 {
+	display: flex;
+}
+.image2 i{
+	color: rgb(57, 57, 57);
+	margin-right: 20px;
+}
+.blue1 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 2%;
+}
+.blue2 {
+	background-color: rgb(73, 0, 213);
+	color: white;
+}
+.create {
+	background-color: rgb(73, 0, 213);
+	border-color: white;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
+}
+.background {
+	background-color: rgb(57, 57, 57);
+}
+.bela {
+	color: white;
+}
+.bela i {
+	color: white;
+}
+.prv:hover {
+	background-color: white;
+	color: rgb(73, 0, 213);
+}
+
+@media only screen and (max-width: 768px) {
+	.heading {
+		display: none;
+	}
+	.center	{
+		display: none;
+	}
+	.bg {
+		padding: 20% 0;
+	}
+	.center	{
+		padding-bottom: 30%;
+	}
+	form {
+		padding-bottom: 2%;
+	}
+}
+@media only screen and (max-width: 425px) {
+	form {
+		margin: 2% 0;
+	}
+	.black {
+		padding: 5% 0;
+	}
+	.blue1 {
+		padding: 5% 0;
+	}
+}
+
+
