@@ -1,0 +1,409 @@
+
+/* colors in css variables */
+:root{
+  --nonmetal: #33f;
+  --alkalimetal: #ee0;
+  --alkalineearthmetal: #cc8;
+  --metalloid: #888;
+  --halogen: #8af;
+  --basic: #630;
+  --noblegas: #8df;
+  --metal: #630;
+  --transitionmetal: #ecc;
+  --lanthanoid: #960;
+  --actinoid: #6a0;
+  --post-transitionmetal: #eed;
+}
+.background {
+  background-image: url("./images/background.jpg");
+  margin: 0;
+  padding: 0;
+}
+.tableTitle{
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  height: 70px;
+  width: 500px;
+}
+
+#periodicTable{
+  display: grid;
+  grid-template-columns: repeat(17, auto);
+  grid-template-rows: minmax(1em, auto);
+  grid-gap: 1px;
+  font-size:.5em;
+  justify-content: center;
+  
+}
+.cell{
+  display: grid;
+  background-color: #ddd;
+  grid-template-areas: 
+    "name  name name"
+    "symbol symbol symbol"
+    "standardState atomicNumber yearDiscovered";
+    /*   grid-template-columns: repeat(2, 1fr); */
+/*     grid-template-rows: repeat(3, 1fr); */
+  font-family:sans-serif;
+  text-align: left;
+  border-radius:.5em;
+  margin-top:1em;
+  min-width: 60.105px;
+
+}
+.cell div{
+  padding: 1px;
+  align-self:center;
+}
+
+div.name{
+  grid-area: name;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.atomicNumber{
+  grid-area: atomicNumber;
+  text-align: right;
+}
+.symbol{
+  grid-area: symbol;
+  font-size: 3em;
+  text-align: center;
+  color: black;
+}
+.standardState{
+  grid-area: standardState;
+  text-align: left;
+}
+.yearDiscovered{
+  grid-area: yearDiscovered;
+  text-align: right;
+}
+
+.groupBlock{
+  grid-area: groupBlock;
+  text-align: center;
+}
+
+.yearDiscovered{
+  grid-area: yearDiscovered;
+  text-align: right;
+}
+
+/* ####### coloring ########### */
+.nonmetal{
+  background: linear-gradient(to bottom, black 0%, var(--nonmetal) 100%);
+  color: white;
+}
+.alkalimetal{
+  background: linear-gradient(to bottom, black 0%,var(--alkalimetal) 100%);
+  color: white;
+}
+.alkalineearthmetal{
+  background: linear-gradient(to bottom, black 0%,var(--alkalineearthmetal) 100%);
+  color: white;
+}
+.metalloid{
+  background: linear-gradient(to bottom, black 0%,var(--alkalineearthmetal) 100%);
+  color: white;
+}
+.halogen{
+  background: linear-gradient(to bottom, black 0%,var(--halogen) 100%);
+  color: white;
+}
+.noblegas{
+  background: linear-gradient(to bottom, black 0%,var(--noblegas) 100%);
+  color: white;
+}
+.metal{
+  background: linear-gradient(to bottom, black 0%,var(--metal) 100%);
+  color: white;
+}
+.halogen{
+  background: linear-gradient(to bottom, black 0%,var(--halogen) 100%);
+  color: white;
+}
+.transitionmetal{
+  background: linear-gradient(to bottom, black 0%,var(--transitionmetal) 100%);
+  color: white;
+}
+.lanthanoid{
+  background: linear-gradient(to bottom, black 0%,var(--lanthanoid) 100%);
+  color: white;
+}
+.actinoid{
+  background: linear-gradient(to bottom, black 0%,var(--actinoid) 100%);
+  color: white;
+}
+.post-transitionmetal{
+  background: linear-gradient(to bottom, black 0%,var(--post-transitionmetal)   100%);
+  color: white;
+}
+
+/* ####### positioning ########### */
+#periodicTable > :nth-child(2) {
+  grid-column:-1;
+} 
+#periodicTable > :nth-child(5) {
+  grid-column:-6;
+} 
+#periodicTable > :nth-child(13) {     /* After this everything falls in the right place */
+  grid-column:-6;
+} 
+/* Lanthanides */
+#periodicTable > :nth-child(58),
+#periodicTable > :nth-child(59),
+#periodicTable > :nth-child(60),
+#periodicTable > :nth-child(61),
+#periodicTable > :nth-child(62),
+#periodicTable > :nth-child(63),
+#periodicTable > :nth-child(64),
+#periodicTable > :nth-child(65),
+#periodicTable > :nth-child(66),
+#periodicTable > :nth-child(67),
+#periodicTable > :nth-child(68),
+#periodicTable > :nth-child(69),
+#periodicTable > :nth-child(70),
+#periodicTable > :nth-child(71)
+{
+  grid-row: 8;
+  margin-top:3em;
+} 
+
+/* Actinides */
+#periodicTable > :nth-child(90),
+#periodicTable > :nth-child(91),
+#periodicTable > :nth-child(92),
+#periodicTable > :nth-child(93),
+#periodicTable > :nth-child(94),
+#periodicTable > :nth-child(95),
+#periodicTable > :nth-child(96),
+#periodicTable > :nth-child(97),
+#periodicTable > :nth-child(98),
+#periodicTable > :nth-child(99),
+#periodicTable > :nth-child(100),
+#periodicTable > :nth-child(101),
+#periodicTable > :nth-child(102),
+#periodicTable > :nth-child(103)
+{
+  grid-row: 9;
+  margin-top:3em;
+} 
+
+.largeCell{
+  transform: scale(2.5, 2.5);
+  z-index:100;
+  cursor: pointer;
+  border:1px solid #ffa;
+}
+.normalCell{
+  transform: scale(1, 1);
+  z-index:1;
+  cursor: zoom-in;
+  border:none;
+}
+#periodicTable > :nth-child(58) {
+  grid-column: 4/5;
+}
+#periodicTable > :nth-child(59){
+  grid-column: 5/6;
+}
+#periodicTable > :nth-child(60){
+  grid-column: 6/7;
+}
+#periodicTable > :nth-child(61){
+  grid-column: 7/8;
+}
+#periodicTable > :nth-child(62){
+  grid-column: 8/9;
+}
+#periodicTable > :nth-child(63){
+  grid-column: 9/10;
+}
+#periodicTable > :nth-child(64){
+  grid-column: 10/11;
+}
+#periodicTable > :nth-child(65){
+  grid-column: 11/12;
+}
+#periodicTable > :nth-child(66){
+  grid-column: 12/13;
+}
+#periodicTable > :nth-child(67){
+  grid-column: 13/14;
+}
+#periodicTable > :nth-child(68){
+  grid-column: 14/15;
+}
+#periodicTable > :nth-child(69){
+  grid-column: 15/16;
+}
+#periodicTable > :nth-child(70){
+  grid-column: 16/17;
+}
+#periodicTable > :nth-child(71){
+  grid-column: 17/18;
+}
+
+#periodicTable > :nth-child(90) {
+  grid-column: 4/5;
+}
+#periodicTable > :nth-child(91){
+  grid-column: 5/6;
+}
+#periodicTable > :nth-child(92){
+  grid-column: 6/7;
+}
+#periodicTable > :nth-child(93){
+  grid-column: 7/8;
+}
+#periodicTable > :nth-child(94){
+  grid-column: 8/9;
+}
+#periodicTable > :nth-child(95){
+  grid-column: 9/10;
+}
+#periodicTable > :nth-child(96){
+  grid-column: 10/11;
+}
+#periodicTable > :nth-child(97){
+  grid-column: 11/12;
+}
+#periodicTable > :nth-child(98){
+  grid-column: 12/13;
+}
+#periodicTable > :nth-child(99){
+  grid-column: 13/14;
+}
+#periodicTable > :nth-child(100){
+  grid-column: 14/15;
+}
+#periodicTable > :nth-child(101){
+  grid-column: 15/16;
+}
+#periodicTable > :nth-child(102){
+  grid-column: 16/17;
+}
+#periodicTable > :nth-child(103){
+  grid-column: 17/18;
+}
+
+
+.img {
+  width: 60px;
+  height: 60px;
+ transition: all .2s ease-in-out;
+}
+.img:hover{
+  transform: scale(1.9);
+}
+
+.img1{
+  margin-left: -180px;
+}
+.img2{
+  grid-row: 1;
+  grid-column: 2;
+
+}
+.img3{
+  grid-row: 3;
+  grid-column: 3;
+}
+.img4{
+  grid-row: 3;
+  grid-column: 4;
+}
+.img5{
+  grid-row: 3;
+  grid-column: 5;
+}
+.img6{
+  grid-row: 3;
+  grid-column: 6;
+}
+.img7{
+  grid-row: 3;
+  grid-column: 7;
+}
+.img8{
+  grid-row: 3;
+  grid-column: 8;
+}
+.img9{
+  grid-row: 3;
+  grid-column: 9;
+}
+.img10{
+  grid-row: 3;
+  grid-column: 10;
+}
+.img11{
+  grid-row: 3;
+  grid-column: 11;
+}
+.img12{
+  grid-row: 3;
+  grid-column: 12;
+}
+.img13{
+  grid-row: 1;
+  grid-column: 13;
+}
+.img14{
+  grid-row: 1;
+  grid-column: 14;
+}
+.img15{
+  grid-row: 1;
+  grid-column: 15;
+}
+.img16{
+  grid-row: 1;
+  grid-column: 16;
+}
+.img17{
+  grid-row: 1;
+  grid-column: 17;
+}
+.img18{
+  margin-right: -180px;
+
+}
+.sub1{
+  grid-row: 8;
+  grid-column: 2/3;
+  height: 80px;
+  width: 60px;
+  align-self: center;
+  
+}
+.sub2{
+  grid-row: 9;
+  grid-column: 2/3;
+  height: 80px;
+  width: 60px;
+  align-self: center;
+
+}
+
+.height {
+  height: 120vh;
+}
+.navbar-default{
+  background-image: none;
+  background-color: transparent;
+  border: none;
+}
+i{
+  font-size: 30px;
+  padding: 10px 0;
+}
+.navbar-right a{
+  color: grey;
+}
+
+
