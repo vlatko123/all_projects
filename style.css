@@ -1,0 +1,216 @@
+.nav {
+    border-radius: 0;
+}
+.nav li a:focus {
+    border-left: 1px solid white; 
+}
+.carousel-caption {
+    bottom: 40%;
+}
+.carousel-indicators li {
+    width: 20px;
+}
+.carousel-indicators .active {
+    width: 22px;
+}
+.margin {
+    margin: 2% 0;
+}
+.margin i {
+    font-size: 30px;
+}
+.bg {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(lights.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2% 0;
+}
+.white {
+    color: white;
+}
+.flex {
+    min-height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn1 {
+    background-color: white;
+    border-color: red;
+    color: red;
+    padding: 2% 3%;
+}
+.btn1:hover {
+    background-color: red;
+    color: white;
+}
+.bg2 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(media.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2% 0;
+}
+.white i { 
+    font-size: 25px;
+}
+.white a {
+    color: white;
+}
+
+.bg3 {
+    background-color: rgb(51, 51, 51);
+    padding: 2% 0;
+}
+#text, #mail {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 3% 2%;
+}
+.bg4 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+.pictures {
+    margin-bottom: 2%;
+}
+.about {
+    height: 93vh;
+    background: url(image1.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;   
+}
+.aboutFlex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.aboutusflex {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imageMinus {
+    margin-top: -5%;
+}
+.imageM {
+    width: 400px;
+    height: 400px;
+}
+.alert i{
+    font-size: 25px;
+}
+.aboutmargin {
+    margin-top: 2%;
+}
+.red {
+    background-color: red;
+    color: white;
+    padding: 2%;    
+}
+.red i {
+    color: white;
+    font-size: 35px;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.left  {
+    background-image: none;
+}
+.grey {
+    background-color: rgb(51, 51, 51)
+}
+.lightgrey {
+    color: rgb(108, 108, 108)
+}
+.list i{
+    font-size: 25px;
+}
+.panel1 {
+    margin-top: 2%;
+}
+.black {
+    background-color: rgb(51, 51, 51);
+    padding: 2% 0;
+}
+.panel-group .panel+.panel {
+    margin-top: 2%;
+}
+.panel-title>a {
+    color: white;
+    text-decoration: none;
+}
+.panelcolor {
+    background-color: black;
+    border: none;
+    color: white;
+}
+.panel-default>.color {
+    background-color: black;
+    background-image: none;
+    border: none;
+    border-radius: 10px;
+}
+.top  {
+    margin-top: 2%;
+}
+.inv {
+    padding: 5%;
+}
+.red10 {
+    background-color: red;
+    color: white;
+    padding: 5%;
+}
+.blue10 {
+    background-color: blue;
+    color: white;
+    padding: 5%;
+}
+.thumb {
+    margin-top: 2%;
+}
+.btn12 {
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+.btn12:hover {
+    background-color: red;
+    color: white;
+}
+.border {
+    border-color: black;
+}
+@media only screen and (max-width: 768px) {
+    .imageM {
+        width: 300px;
+        height: 300px;
+    }
+    .image10 {
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+@media only screen and (max-width: 425px) {
+    .carousel-caption {
+        display: none;
+    }
+    .margin20 {
+        margin-top: 4%;
+    }
+    .imageMinus {
+        display: none;
+    }
+   
+}
+
