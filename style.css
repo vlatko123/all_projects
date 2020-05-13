@@ -1,0 +1,325 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+#header {
+    border: 1px solid rgb(91, 129, 156);
+    background-color: rgb(91, 129, 156);
+}
+    #ikoni {
+    margin: 10px 250px; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#ikoni .i {
+    font-size: 30px;
+    color: white;
+}
+#ikoni ul li a {
+    float: right;
+    margin: 5px;
+    color: white;
+    text-decoration: none;  
+}
+#ikoni ul li a:hover {
+    color: lightgrey;
+}
+#headerpicture {
+    width: 70%;
+    margin: 0 auto;
+}
+#headerpicture img {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+#firstrow {
+    text-align: center;
+}
+.macbookair {
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(219, 219, 219);
+}
+.macbookair {
+    width: 25%;
+    float: left;
+}
+.macbookair i {
+    font-size: 45px;
+    margin: 25px 0;
+    
+}
+.macbookair p{
+    /* text-align: center; */
+    font-size: 25px;
+}
+.ipad {
+    border: 1px solid rgb(188, 185, 170);
+    background-color: rgb(188, 185, 170);
+}
+
+.ipad {
+    width: 25%;
+    float: left;
+}
+.ipad i {
+    font-size: 45px;
+    padding: 25px 0;
+}
+.ipad p{
+    /* text-align: center; */
+    font-size: 25px;
+}
+.iphone {
+    width: 25%;
+    float: left;
+}
+.iphone {
+    border: 1px solid rgb(156, 224, 209);
+    background-color: rgb(156, 224, 209);
+}
+.iphone i {
+    font-size: 45px;
+    padding: 25px 0;
+}
+.iphone p {
+    /* text-align: center; */
+    font-size: 25px;
+}
+.about {
+    width: 24.4%;
+    float: left; 
+}
+.about {
+    border: 1px solid rgb(159, 174, 193);
+    background-color: rgb(159, 174, 193);
+}
+.about i {
+    font-size: 45px;
+    padding: 25px 0;
+}
+.about p {
+    /* text-align: center; */
+    font-size: 25px;
+}
+
+.tablet {
+    border: 1px solid rgb(183, 206, 214);
+    background-color: rgb(183, 206, 214); 
+}
+.tablet {
+    width: 50.1%;
+    float: left;
+}
+#secondrow .tablet img {
+    width: 200px;
+    height: 236px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 35%;
+}
+.opis {
+    border: 1px solid rgb(159, 174, 193);
+    background-color: rgb(159, 174, 193);
+}
+.opis {
+    width: 49.5%;
+    float: left;
+}
+.opis h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 2px;
+}
+.opis p {
+    color: white;
+    text-indent: 28px;
+    padding: 5px 70px;
+    line-height: 1.5;
+}
+.opis1 {
+    border: 1px solid rgb(182, 179, 164);
+    background-color: rgb(182, 179, 164);
+}
+.opis1 {
+    width: 50%;
+    float: left;
+}
+.opis1 h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 2px;
+}
+.opis1 p {
+    color: white;
+    text-indent: 28px;
+    padding: 5px 70px;
+    line-height: 1.5;
+}
+.iphonex {
+    border: 1px solid rgb(183, 206, 214);
+    background-color: rgb(183, 206, 214);
+}
+.iphonex {
+    width: 49.7%;
+    float: left;
+}
+ #thirdrow .iphonex img {
+    width: 180px;
+    height: 187.5px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 35%;
+}
+.macbook {
+    border: 1px solid rgb(183, 206, 214);
+    background-color: rgb(183, 206, 214);
+}
+.macbook {
+    width: 50%;
+    float: left;
+}
+.macbook img {
+    width: 200px;
+    height: 200px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 35%;
+}
+.opis2 {
+    border: 1px solid rgb(240, 159, 132);
+    background-color: rgb(240, 159, 132);
+}
+.opis2 {
+    width: 49.7%;
+    float: left;
+}
+.opis2 h3 {
+    text-align: center;
+    color: white;
+    font-size: 27.3px;
+    padding-top: 2px;
+}
+.opis2 p {
+    color: white;
+    text-indent: 28px;
+    padding: 3px 70px;
+    line-height: 1.5;
+}
+#fifthrow {
+    border: 1px solid rgb(145, 207, 194);
+    background-color: rgb(145, 207, 194);
+}
+#fifthrow {
+    width: 33.4%;
+    float: right;
+}
+#fifthrow h3 {
+    text-align: center;
+    color: black;
+    font-size: 20px;  
+}
+#fifthrow p {
+    color: rgb(198, 208, 219);
+    text-indent: 25px;
+    padding: 3px 40px;
+    line-height: 1.5;
+}
+#salary {
+    border: 1px solid rgb(175, 171, 159);
+    background-color: rgb(175, 171, 159);
+}
+#salary {
+    width: 33.2%;
+    float: right; 
+}
+#salary h3 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+#salary p {
+    color: rgb(198, 208, 219);
+    text-indent: 25px;
+    padding: 3px 40px;
+    line-height: 1.5;
+}
+#team {
+    border: 1px solid rgb(147, 160, 177);
+    background-color: rgb(147, 160, 177);
+}
+#team {
+    width: 32.9%;
+    float: right;
+}
+#team h3{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+#team p {
+    color: rgb(198, 208, 219);
+    text-indent: 25px;
+    padding: 3px 40px;
+    line-height: 1.5;
+}
+#sixthrow {
+    border: 1px solid rgb(93, 130, 159);
+    background-color: rgb(93, 130, 159);
+}
+#sixthrow  {
+     border-bottom: 2px solid rgb(150, 188, 199);
+}
+#sixthrow {
+    width: 100%;
+    float: right;
+
+}
+/* .social {
+    width: 100%; 
+    
+} */
+.social {
+    width: 80%;
+}
+
+.social i {
+    font-size: 25px;
+    color: rgb(166, 195, 209); 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 150px;
+}
+.social {
+    position: relative;
+    left: 150px;
+}
+#footer {
+    width: 100%;
+    background-color: rgb(81, 67, 84);
+    float: right;
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(166, 195, 209);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
